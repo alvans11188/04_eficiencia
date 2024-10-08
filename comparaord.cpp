@@ -59,12 +59,12 @@ int main(){
 				double duracion_segundos1 = double(end - start) / CLOCKS_PER_SEC;
 				double duracion1 = double(end - start) / CLOCKS_PER_SEC * 1000.0;
 				
-				
+				/*
 				for (i=1;i<=n;i++){
 					cout << arreglo[i] << " ";
 				}
 				cout << "\n";
-				
+				*/
 				cout << "Tiempo de ejecucion: " << duracion_segundos1 << " s" << endl;
 				cout << "Tiempo de ejecucion: " << duracion1 << " ms" << endl;
 				break;
@@ -82,11 +82,11 @@ int main(){
 				
 				double duracion_segundos2 = double(end - start) / CLOCKS_PER_SEC;
 				double duracion2 = double(end - start) / CLOCKS_PER_SEC * 1000.0;
-				
+				/*
 				for (i=1;i<=n;i++){
 					cout << arreglo[i] << " ";
 				}
-				
+				*/
 				cout << "\n";
 				cout << "Tiempo de ejecucion: " << duracion_segundos2 << " s" << endl;
 				cout << "Tiempo de ejecucion: " << duracion2 << " ms" << endl;
